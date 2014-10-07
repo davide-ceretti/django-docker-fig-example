@@ -8,15 +8,15 @@ The ultimate aim is to create something portable, that can be developed on, easy
 Install
 -------
 
-First, you need docker installed. See http://docs.docker.com/installation/ubuntulinux/
-Second, you need fig installed. See http://www.fig.sh/install.html.
+* First, you need docker installed. See http://docs.docker.com/installation/ubuntulinux/
+* Second, you need fig installed. See http://www.fig.sh/install.html.
 
 Run application
 ---------------
 
-fig up
+```fig up```
 
 Run management commands
 -----------------------
 
-fig run web python manage.py migrate
+```fig run web python manage.py migrate```
